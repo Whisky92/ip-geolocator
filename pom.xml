@@ -36,14 +36,14 @@
             <scope>compile</scope>
         </dependency>
 
-<!--
+
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
             <version>1.18.22</version>
             <scope>compile</scope>
         </dependency>
--->
+
     </dependencies>
     <build>
         <plugins>
@@ -60,7 +60,7 @@
                     <mainClass>${mainClass}</mainClass>
                 </configuration>
             </plugin>
-<!--
+
             <plugin>
                 <groupId>org.projectlombok</groupId>
                 <artifactId>lombok-maven-plugin</artifactId>
@@ -74,7 +74,7 @@
                     </execution>
                 </executions>
             </plugin>
--->
+
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-shade-plugin</artifactId>
